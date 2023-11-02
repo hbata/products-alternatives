@@ -1,3 +1,7 @@
+@import 'primereact/resources/themes/lara-light-indigo/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,18 @@
     transform: rotate(360deg);
   }
 }
+.p-button {
+  background-color: var(--odoo-green);
+  border-color: var(--odoo-green);
+}
+
+.p-button:hover {
+  background-color: shade(var(--odoo-green), 10%);
+  border-color: shade(var(--odoo-green), 10%);
+}
+
+.p-dialog .p-dialog-header {
+  background-color: var(--odoo-gray);
+  color: white;
+}
+
